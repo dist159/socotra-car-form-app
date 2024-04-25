@@ -1,0 +1,37 @@
+.inputs-container-sidebar {
+  margin-top: 20px;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: #e6e8eb 1px solid;
+
+  p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+  }
+}
+
+.footer {
+  height: 80px;
+  gap: 12px;
+  border-top: #e6e8eb 1px solid;
+  padding: 0 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: auto;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

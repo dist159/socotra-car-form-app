@@ -1,0 +1,43 @@
+.main-container {
+  width: 400px;
+  margin: 80px auto;
+}
+
+.subheader {
+  margin: 46px auto 0 auto;
+  height: 30px;
+  width: 252px;
+  text-align: center;
+  border-bottom: solid 1px #e2e8f0;
+}
+
+.quote-container {
+  background: #152c47;
+  width: 400px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 10px 1px #00000024;
+  color: white;
+
+
+  h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: var(--font-raleway);;
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 700;
+  }
+
+  p {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #ffffff99;
+  }
+}

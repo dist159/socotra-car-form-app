@@ -1,0 +1,43 @@
+.list-item-container {
+  margin: 46px 0 0 0;
+  background-color: #23476b;
+  height: 80px;
+  box-shadow: 0px 8px 10px 1px #00000024;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 16px;
+}
+
+.icon-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  font-weight: 700px;
+  line-height: 22.4px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-subtitle {
+  color: #ffffff99;
+}
+
+.align-title{
+  justify-content: center;
+
+}
+
+.secondary {
+  background-color: #406e8f;
+}

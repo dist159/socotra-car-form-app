@@ -1,0 +1,38 @@
+.title {
+  margin: auto;
+  font-family: var(--font-space);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.4px;
+  text-align: center;
+  color: #0c1929;
+}
+
+.main-container {
+  width: 400px;
+  margin: auto;
+  height: 100vh;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  margin: 45px 0;
+}
+
+.button-container {
+  margin-top: 46px;
+  text-align: center;
+
+  button {
+    width: 146px;
+  }
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 66px;
+}

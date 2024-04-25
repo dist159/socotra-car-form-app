@@ -1,0 +1,41 @@
+.steps-container {
+  margin: 45px auto;
+  display: flex;
+  width: 414px;
+  height: 51px;
+  padding: 16px;
+  gap: 4px;
+  align-items: center;
+
+}
+
+.step {
+  width: 25px;
+  height: 25px;
+  border: 1px #c5cad1 solid;
+  border-radius: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400px;
+    line-height: 18px;
+    color: #26aeaf;
+  }
+}
+
+.selected {
+  background-color: #26aeaf;
+
+  p {
+    color: #ffffff;
+  }
+}
+
+.line-divider {
+  width: 94px;
+  border-top: 1px #c5cad1 solid;
+}
