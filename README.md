@@ -1,5 +1,10 @@
 # Socotra Car Demo
 
+<p align="center">
+  <img src="https://github.com/dist159/socotra-car-form-app/assets/59893365/d3572de6-f0c9-4171-9dc6-68b26947e258" alt="Sublime's custom image"/>
+</p>
+
+
 This is a [Next.js](https://nextjs.org/) project to demo a car quote diagram flow. This includes the use of global context for shared form data, the use of layout context to provide multiple pages with the access of the same component as the sidebar among others important react functionalities.
 
 ## Getting Started
@@ -79,7 +84,7 @@ If you want to use any specific you can call it like this
 
 ## Perfomance and optimizacion
 
-Some components as the list item are being memoized to avoid additional renders when something in the list changes. Also, the result itself of some functions has been integrated with useMemo to avoid additional renders when executed as it should not change too often.
+Some components as the list item are being memoized to avoid additional renders when something in the list changes. Also, the result itself of some functions has been integrated with useMemo to avoid additional renders when executed as it should not change too often. Also I use reducers instead of useState for the main form as it handle multiple states making it more complex to use with useState.
 
 ## Opportunities of improvement
 
